@@ -1,0 +1,11 @@
+CREATE TABLE `loralog` (
+  `timestamp` datetime DEFAULT NULL,
+  `temperature` float DEFAULT NULL,
+  `pressure` float DEFAULT NULL,
+  `light` int(11) DEFAULT NULL,
+  `device` varchar(32) DEFAULT NULL,
+  `event` varchar(32) DEFAULT NULL,
+  `battery` int(11) DEFAULT NULL,
+  `gps` varchar(32) DEFAULT NULL,
+  `raw_payload` varchar(64) DEFAULT NULL,
+  `devaddr` varchar(16) DEFAULT NULL);
